@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <title>Raspberry Pi Advanced Workshop: Do It Yourself Labs</title>
+	<link rel="stylesheet" href="./stylesheets/styles.css">
+</head>
+<body>
+	
+	<header>
+		<div class="container">
+			<div class="navbar-wrapper">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <a class="navbar-brand" href="./index.html"><img src="./imgs/brand.png" alt="DoItYourself Labs" class="img-responsive"></a>
+		        </div>
+		        <div style="height: 1px;" aria-expanded="false" id="navbar" class="navbar-collapse collapse">
+		        	<nav id="nav-main">
+			         	<ul class="nav navbar-nav navbar-right">
+				            <li><a href="./index.html">Home</a></li>
+				            <li><a href="./workshop.html">Workshop</a></li>
+				            <li><a href="./faqs.html">FAQs</a></li>
+				            <li><a href="./contact.html">Contact</a></li>
+				        </ul>
+			        </nav>
+		        </div><!--/.navbar-collapse -->
+	        </div>
+	    </div>
+	</header>
+	
+	<section id="section-workshop-advanced" style="margin: 20px 0 300px 0">	
+		<div class="container">
+			<div class="row" style="margin: 20px 0;">
+				<div id="">
+					<h3 class="curv"><strong>Raspberry Pi Advanced Workshop </strong></h3>
+					<p>Upcoming...</p>
+				</div>
+
+			
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<p class="disclaimer">
+					<small>Disclamer : Raspberry Pi and its logo is a trademark of the Raspberry Pi foundation. <br> This website is not affiliated with the Raspberry Pi Foundation in any way and should not be confused with the website of the Raspberry Pi Foundation which can be found at <a href="http://www.raspberrypi.org" target="_blank">www.raspberrypi.org</a> <br> Website artwork is protected by copyright, it should not be copied or reproduced without prior consent. </small></p>
+				<p id="copyright" class="text-center">&copy; 2016 DoItYourself Labs - All Rights Reserved </p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./javascripts/jquery.min.js"></script>
+	<script src="./javascripts/bootstrap.min.js"></script>
+	<script>
+		$(function() {
+    		$('.show-text ul li span').on('click', function () {
+    			$(this).siblings('p').toggleClass('show');
+    			$(this).toggleClass('glyphicon-plus').toggleClass('glyphicon-minus');
+    		});
+		});
+	</script>
+
+</body>
+</html>
